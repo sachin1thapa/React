@@ -1,10 +1,12 @@
-import { ConditionalRendering, ReactIcons } from './component';
+import { ConditionalRendering, ReactIcons, Array, Object } from './component';
 
 function App() {
   return (
     <>
-      <ConditionalRendering />
-      <ReactIcons />
+      {/* <ConditionalRendering />
+      <ReactIcons /> */}
+      {/* <Array /> */}
+      <Object />
     </>
   );
 }
