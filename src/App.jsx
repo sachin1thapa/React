@@ -1,4 +1,4 @@
-import { ConditionalRendering, ReactIcons, Array, Object } from './component';
+import { ConditionalRendering, ReactIcons, Array, Object, ArrayObject } from './component';
 
 function App() {
   return (
@@ -6,7 +6,8 @@ function App() {
       {/* <ConditionalRendering />
       <ReactIcons /> */}
       {/* <Array /> */}
-      <Object />
+      {/* <Object /> */}
+      <ArrayObject />
     </>
   );
 }
