@@ -1,8 +1,12 @@
-import { ConditionalRendering } from "./component";
-
+import { ConditionalRendering, ReactIcons } from './component';
 
 function App() {
-  return <ConditionalRendering />;
+  return (
+    <>
+      <ConditionalRendering />
+      <ReactIcons />
+    </>
+  );
 }
 
 export default App;
